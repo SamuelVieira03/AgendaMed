@@ -10,5 +10,5 @@ import java.util.Optional;
 @Repository
 public interface AgendaRepository extends JpaRepository<Agenda, Long> {
 
-Optional<Agenda> findByHorario(LocalDateTime horario);
+    Optional<Agenda> findByHorario(LocalDateTime horario);
 }

@@ -1,7 +1,4 @@
 package diogft.AgendaMed.api.response;
-
-import diogft.AgendaMed.domain.entity.Paciente;
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

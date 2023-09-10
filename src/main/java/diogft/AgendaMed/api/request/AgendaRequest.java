@@ -1,13 +1,10 @@
 package diogft.AgendaMed.api.request;
 
-import jakarta.validation.constraints.Future;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
+import lombok.*;
+import javax.validation.constraints.Future;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import org.springframework.format.annotation.DateTimeFormat;
 import java.time.LocalDateTime;
 
 @Getter
@@ -21,6 +18,7 @@ public class AgendaRequest {
 
     @NotNull
     @Future
+    @DateTimeFormat(pattern = "yyyy-MM-ddTHH:mn:ss")
     private LocalDateTime horario;
 
     @NotNull
