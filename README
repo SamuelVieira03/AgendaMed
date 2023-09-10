@@ -1,0 +1,10 @@
+Aplicação de Agendamento de pacientes médicos.
+
+Tecnologias usadas:
+- Java
+-Spring
+- Spring Boot: Dependencias de Autenticação, Banco de Dados, Seguração e WEB.
+    - Dependencia Lombok - para construtores e getters e setters (a principio)
+- Banco de Dados POSTGRESQL -Relacional
+  -Postman para teste de Endpoints
+-SWAGGER para documentação 
