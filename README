@@ -1,0 +1,31 @@
+Aplicação de Agendamento de pacientes médicos.
+
+Tecnologias usadas:
+- Java
+-Spring
+- Spring Boot: Dependencias de Autenticação, Banco de Dados, Seguração e WEB.
+    - Dependencia Lombok - para construtores e getters e setters (a principio)
+- Banco de Dados POSTGRESQL -Relacional
+  -Postman para teste de Endpoints
+-SWAGGER para documentação 
+- Docker utilizado para POSTGRESQL
+
+
+Desafios Encontrados além do projeto em si:
+    -Entender como funcionava o Spring Boot em uma aplicação por completo na prática
+    -Testar os endpoints e ver onde estava as falhas de acesso.
+    - Entender como estava funcionando toda a aplicação e de como cada parte estava ligada.
+    - Resolver alguns bugs de dependencia e de versões.
+
+MATERIAIS DE ESTUDO E PESQUISA:
+- DIO BOOTCAMP GFT JAVA AWS
+-YOUTUBE
+-STACK OVER FLOW
+-GOOGLE
+-STACK OVER FLOW (JÁ DISSE?)
+- Perguntando pra devs da área. 
+
+Próxima feature:
+- Instalar interface gráfica pelo JavaFX
+- colocar na Nuvem
+
