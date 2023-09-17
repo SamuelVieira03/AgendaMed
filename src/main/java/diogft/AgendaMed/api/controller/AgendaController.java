@@ -17,6 +17,10 @@ import java.util.Optional;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/agenda")
+/*AQUI É CONTROLADOR DAS REQUISIÇÕES DA AGENDA.
+LISTAGEM E MAPEAMENTO DAS LISTAS DE AGENDA DISPONIVEIS.
+
+* */
 public class AgendaController {
 
     private final AgendaService service;

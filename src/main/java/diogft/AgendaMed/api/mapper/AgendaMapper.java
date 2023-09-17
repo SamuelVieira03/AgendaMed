@@ -13,6 +13,9 @@ import java.util.stream.Collectors;
 @Component
 @RequiredArgsConstructor
 
+/* REQUISIÇÃO DE LISTAS E MAPEAMENTO DAS REQUESTS
+* */
+
 public class AgendaMapper {
     private final ModelMapper mapper;
 

@@ -10,6 +10,8 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 
+/*AQUI SÃO AS RESPOSTAS QUE AS REQUISIÇÕES PEDEM NO CADASTRO
+* */
 public class AgendaResponse {
 
     private Long id;

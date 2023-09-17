@@ -11,6 +11,11 @@ import java.time.LocalDateTime;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+
+/*MODELO DE REQUISIÇÃO NECESSÁRIA DA AGENDA
+COM NOTNULL PARA NUMEROS E NOTBLANK PARA STRINGS
+FUTURE PARA NÃO TER A POSSIBILIDADE DE USAR DATAS PASSADAS.
+* */
 public class AgendaRequest {
 
     @NotBlank

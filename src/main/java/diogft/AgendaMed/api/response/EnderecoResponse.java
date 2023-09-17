@@ -10,6 +10,9 @@ import lombok.Setter;
     @Setter
     @AllArgsConstructor
     @NoArgsConstructor
+
+    /*RESPOSTA DAS REQUISIÇÕES DE ENDEREÇO
+    * */
     public class EnderecoResponse {
 
         private Long id;

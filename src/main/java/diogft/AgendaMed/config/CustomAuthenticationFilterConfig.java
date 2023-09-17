@@ -28,7 +28,9 @@ import static org.springframework.util.MimeTypeUtils.APPLICATION_JSON_VALUE;
 public class CustomAuthenticationFilterConfig extends UsernamePasswordAuthenticationFilter {
 
     private final AuthenticationManager authenticationManager;
-
+/*USANDO O SPRING SECURITY FAÇO A REQUISIÇÃO DA SENHA E DO TOKEN DE SEGURANÇA PARA AUTENTICAÇÃO COMPLETA
+*
+* */
     @Override
     public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {
         String usuario = request.getParameter(SPRING_SECURITY_FORM_USERNAME_KEY);

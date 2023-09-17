@@ -17,6 +17,10 @@ import java.util.Optional;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/paciente")
+
+/* AQUI É O 'CRUD' DE PACIENTES, LISTAGEM DOS PACIENTES.
+*
+* */
 public class PacienteController {
     private final PacienteService service;
     private  final PacienteMapper mapper;

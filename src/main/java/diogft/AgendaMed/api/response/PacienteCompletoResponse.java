@@ -10,6 +10,9 @@ import java.util.List;
     @Setter
     @AllArgsConstructor
     @NoArgsConstructor
+/*AQUI VAI O PACIENTE COMPLETO E COM O ENDEREÇO
+*
+* */
     public class PacienteCompletoResponse {
 
         private Long id;

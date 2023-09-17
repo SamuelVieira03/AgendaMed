@@ -10,6 +10,8 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+/*REQUISIÇÃO DA CLASSE PACIENTE E OS ATRIBUTOS NECESSÁRIOS.
+* */
 public class PacienteRequest {
 
     @NotBlank(message = "Nome do paciente é obritagtório!")

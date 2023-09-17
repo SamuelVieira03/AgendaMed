@@ -13,6 +13,9 @@ import java.util.stream.Collectors;
 
 @Component
 @RequiredArgsConstructor
+
+/* MAPEAMENTO DAS REQUISIÇÕES DE USUÁRIOS.
+* */
 public class PacienteMapper {
 
     private final ModelMapper mapper;

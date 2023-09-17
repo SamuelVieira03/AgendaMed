@@ -11,28 +11,27 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+
 @Configuration
 @EnableSwagger2
-
 public class SwaggerConfig {
 
     @Bean
-    public Docket api(){
+    public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("diogft/AgendaMed/api"))
+                .apis(RequestHandlerSelectors.basePackage("diogft/AgendaMed"))
                 .paths(PathSelectors.any())
                 .build()
                 .apiInfo(apiInfo());
     }
 
-    private ApiInfo apiInfo(){
+    private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("Spring Boot REST API")
-                .description("Exemplo de aplicação SPRING BOOT API REST")
-                .version("4.5.4")
-                .contact(new Contact("Samuel Felipe Vieira" ,"https://github.com/SamuelVieira03",
-                        "samuelfvieira03@gmail.com"))
+                .description("Aplicação de Agendamento de Consultas")
+                .version("1.0.0")
+                .contact(new Contact("Samuel F. Vieira", "https://github.com/SamuelVieira03", "samuelfvieira03@gmail.com"))
                 .build();
     }
 }
